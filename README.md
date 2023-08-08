@@ -32,7 +32,7 @@ Clone the repository and install dependencies
 npm install
 ```
 
-Ethereum Mainnet and Ethereum testnets' connections are provided throught Infura. Copy the `.env-template` file to a file named `.env` and add the Infura key. If left empty, it will use the default [ethers.js Infura key](https://github.com/ethers-io/ethers.js/blob/0d40156fcba5be155aa5def71bcdb95b9c11d889/packages/providers/src.ts/infura-provider.ts#L17)
+Ethereum Mainnet and Ethereum testnets' connections are provided through Infura. Copy the `.env-template` file to a file named `.env` and add the Infura key. If left empty, it will use the default [ethers.js Infura key](https://github.com/ethers-io/ethers.js/blob/0d40156fcba5be155aa5def71bcdb95b9c11d889/packages/providers/src.ts/infura-provider.ts#L17)
 
 ```
 REACT_APP_INFURA_KEY=<Your-Key>
